@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Poppins&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
+
+/* Universal selector */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* elemental selector */
+h1 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+/* id selector */
+#about {
+    background-color: darkorange;
+    width: 150px;
+}
+
+/* id selector */
+#text {
+    background-color: aquamarine;
+}
+
+/* class selector */
+.hobbies {
+    background-color: aqua;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1186124008/vector/sketch-backgrounds.jpg?s=612x612&w=0&k=20&c=HKM2zZtJ1ReaoEgp-CwWjJtImPE_CrmxJuJYOyMQMhY=);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+/* multiple elemental selectors */
+table,
+thead,
+td,
+tr {
+    border: 2px solid rgb(10, 9, 9);
+    padding: 20px;
+}
+
+table {
+    width: 100vw;
+}
+
+img {
+    width: 380px;
+    height: 350px;
+}
